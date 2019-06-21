@@ -21,16 +21,19 @@ for Type_founction in list_founction:
 # #exercise_10(21_06_2019) *****8
 #--------------------------
 import random
-Mirange = random.randrange(400,1000)
-Marange = random.randrange(400,1000)
-print (Mirange,Marange)
+
+mi = random.randrange(100)
+ma = random.randrange(100)
 
 def getInRange (min,max):
-    if
 
-getInRange (Mirange,Marange)
+    if min >1 and max <100:
 
+        print ("in range:","min",mi,"max",ma)
+    else:
+        print("Uunrange:","min",mi,"max",ma)
 
+getInRange (1,80)
 #-----------------------
 #exercise_10(21_06_2019)
 #-----------------------

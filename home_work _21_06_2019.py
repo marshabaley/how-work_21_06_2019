@@ -18,7 +18,7 @@ for Type_founction in list_founction:
     break
 
 #-------------------------
-# #exercise_10(21_06_2019)
+# #exercise_10(21_06_2019) *****8
 #--------------------------
 import random
 Mirange = random.randrange(400,1000)
@@ -39,11 +39,7 @@ list_max_min = []
 
 def max_min(x):
     list_max_min.append(x)
-
-#max_min(10)
-#max_min(30)
-#max_min(900)
-
+  
 max_min( int(input('Enter Number: ')))
 max_min( int(input('Enter Number: ')))
 max_min( int(input('Enter Number: ')))

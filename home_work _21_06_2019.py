@@ -2,7 +2,7 @@
 #------------------------
 # #exercise_9(21_06_2019)
 #------------------------
-# list_founction = ["add", "sub", "mul", "div"]
+ list_founction = ["add", "sub", "mul", "div"]
 
 for Type_founction in list_founction:
 

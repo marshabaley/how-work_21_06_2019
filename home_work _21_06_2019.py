@@ -34,8 +34,8 @@ num_1 = random.randrange(150)
 num_2 = random.randrange(150)
 
 def getInRange (min,max):
-    a = min >= 1 and min <=100
-    b = max >=1 and max <=100
+    a = min >= 10 and min <=100
+    b = max >=10 and max <=100
 
     if a and b:
         print ("Yes:",num_1,num_2)

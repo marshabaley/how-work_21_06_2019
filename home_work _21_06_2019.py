@@ -30,18 +30,19 @@ for Type_founction in list_founction:
 #--------------------------
 import random
 
-mi = random.randrange(100)
-ma = random.randrange(100)
+num_1 = random.randrange(150)
+num_2 = random.randrange(150)
 
 def getInRange (min,max):
+    a = min >= 1 and min <=100
+    b = max >=1 and max <=100
 
-    if min >1 and max <100:
-
-        print ("in range:","min",mi,"max",ma)
+    if a and b:
+        print ("Yes:",num_1,num_2)
     else:
-        print("Uunrange:","min",mi,"max",ma)
+        print("No: ",num_1,num_2)
 
-getInRange (1,80)
+getInRange (num_1,num_2)
 
 #-----------------------
 #exercise_10(21_06_2019)

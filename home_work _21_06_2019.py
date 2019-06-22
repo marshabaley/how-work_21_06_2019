@@ -1,3 +1,11 @@
+#------------------------
+# #exercise_8(21_06_2019)
+#------------------------
+
+def CircleScope (R):
+    calculate = 2*3.14*R
+    print(calculate)
+CircleScope(int(input('Enter Number_1: ')))
 
 #------------------------
 # #exercise_9(21_06_2019)
@@ -34,20 +42,25 @@ def getInRange (min,max):
         print("Uunrange:","min",mi,"max",ma)
 
 getInRange (1,80)
+
 #-----------------------
 #exercise_10(21_06_2019)
 #-----------------------
 
 list_max_min = []
 
-def max_min(x):
-    list_max_min.append(x)
-  
-max_min( int(input('Enter Number: ')))
-max_min( int(input('Enter Number: ')))
-max_min( int(input('Enter Number: ')))
+for row in range(3):
 
-print (min(list_max_min))
+    Number = int(input('Enter Number: '))
+
+    def max_min(x):
+        list_max_min.append(x)
+
+    max_min(Number)
+
+print ("min:",min(list_max_min))
+print ("min:",max(list_max_min))
+
 
 
 
